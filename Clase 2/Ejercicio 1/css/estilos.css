@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	background: linear-gradient(left, rgba(0,0,255, 0.5) 0%, rgb(0,255,0) 50%,rgb(255,0,0) 100%);
+	background: -moz-linear-gradient(left, rgba(0,0,255, 0.5) 0%, rgb(0,255,0) 50%,rgb(255,0,0) 100%);
+	background: -webkit-linear-gradient(left, rgba(0,0,255, 0.5) 0%, rgb(0,255,0) 50%,rgb(255,0,0) 100%);
+	background: -o-linear-gradient(left, rgba(0,0,255, 0.5) 0%, rgb(0,255,0) 50%,rgb(255,0,0) 100%);
+	background: -ms-linear-gradient(left, rgba(0,0,255, 0.5) 0%, rgb(0,255,0) 50%,rgb(255,0,0) 100%);
+	border: 3px black solid;
+	height: 300px;
+	margin: 10px 5px;
+	width: 60%;
+}
+
+.caja1{
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 50px black, 10px 10px 50px black;
+	text-shadow:  1px 2px 1px red;
+	background: rgba(0,0,0, 0.2);
+	font-size: 30px;
+	word-wrap: break-word;
+}
+#caja_fondos{
+	background: url("../img/HTML5_Logo_512.png"), url("../img/dot.png");
+	background-size: 100% 100%, 15% 15%;
+	background-repeat: no-repeat, repeat;
+	padding: 30px;
+	background-origin: content-box;
+
+}
