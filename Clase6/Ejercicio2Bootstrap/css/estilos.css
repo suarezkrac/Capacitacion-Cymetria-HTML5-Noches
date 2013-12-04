@@ -1,0 +1,12 @@
+.box{
+	height: 300px;
+}
+#box1{
+	background: gray;
+}
+#box2{
+	background: #ccc;
+}
+#box3{
+	background: red;
+}

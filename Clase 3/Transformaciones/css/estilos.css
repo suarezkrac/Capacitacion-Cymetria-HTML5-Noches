@@ -1,0 +1,39 @@
+.caja{
+	background: red;
+	height: 200px;
+	margin: 10px 0;
+	width: 200px;
+}
+.rotacion{
+	background-image: url(../img/HTML5_Logo_512.png);
+	background-size: auto 100%;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+
+	transform-origin: left top;
+	-webkit-transform-origin: left top;
+}
+.escala{
+	transform: scale(0.5,0.5);
+	-webkit-transform: scale(0.5,0.5);
+}
+.traslacion{
+	transition: -webkit-transform 4s;
+	-webkit-transition: -webkit-transform 4s;
+
+	/*transition-timing-function: linear;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;*/
+	transition-timing-function: ease-in-out;
+
+	transition-delay: 2s;
+
+	transition-duration: 1s;
+}
+.traslacion:hover{
+	transform: translate(100px, 40px);
+	-webkit-transform: translate(100px, 40px);
+}

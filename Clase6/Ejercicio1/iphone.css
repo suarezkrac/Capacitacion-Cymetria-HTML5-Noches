@@ -1,0 +1,10 @@
+article, aside{
+	float: none;
+	width: 100%;
+}
+ul li{
+	display: block;
+}
+nav{
+	height: auto;
+}

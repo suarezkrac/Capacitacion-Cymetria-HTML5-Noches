@@ -1,0 +1,19 @@
+.boxes{
+	background: #eee;
+	width: 100px;
+	height: 100px;
+}
+ul{
+	list-style: none
+}
+li{
+	border: 2px solid black; 
+	width: 200px; 
+	height: 30px;
+}
+.ui-selected{
+	background: #eee;
+}
+.ui-selecting{
+	background: gray;
+}
